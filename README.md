@@ -1,0 +1,18 @@
+```
+- minidjango_ver1   (project root)
+  - app1             (first application)
+    - __init__.py
+    - migrations     (keeping track of db changes)
+        -__init__.py 
+    - admin.py        (built in django admin GUI)
+    - apps.py         (application config)
+    - models.py       (to define DB)
+    - tests.py        (to define unit-test)
+    - views.py        (contain business logic)
+  - minidjango_ver1   (django project setting dir)
+    - __init__.py
+    - asgi.py         (project instantiation)
+    - settings.py     (project config)
+    - urls.py         (url config)
+    - wsgi.py         (project instantiation)
+- manage.py```
